@@ -19,10 +19,11 @@ int main(int argc, char **argv) {
 	
 }
 
-// No tuve que instalar nada de OpenMPI (ya venía instalado, o bien, indirectamente lo instalé en algún momento) (para saber lo instalado, poner en terminal dpkg -l | grep openmpi
+// No tuve que instalar nada de OpenMPI (ya venï¿½a instalado, o bien, indirectamente lo instalï¿½ en algï¿½n momento) (para saber lo instalado, poner en terminal dpkg -l | grep openmpi
 // NO usar using namespace MPI;
 // Es MPI_, no MPI-
-// Lo que agregue en Opciones > Parámetros extras de compilación, es lo que aparece cuando en terminal se coloca mpicxx -show (hasta -pthread inclusive)
-// Lo que agregué en Opciones > Parámetros extras de enlazado, es lo que aparece cuando en terminal se coloca mpicxx -show (después de -pthread, eliminando -lmpi)
-// De igual forma, si lo ejecuto desde acá, se ejecuta un solo proceso (para que se ejecuten varios procesos, ejecutarlo desde la terminal con mpiexec -n 4 ./MiProyecto.bin (está en la carpeta Debug del proyecto)
+// Lo que agregue en Opciones > Parï¿½metros extras de compilaciï¿½n, es lo que aparece cuando en terminal se coloca mpicxx -show (hasta -pthread inclusive)
+// Lo que agreguï¿½ en Opciones > Parï¿½metros extras de enlazado, es lo que aparece cuando en terminal se coloca mpicxx -show (despuï¿½s de -pthread, eliminando -lmpi)
+// De igual forma, si lo ejecuto desde acï¿½, se ejecuta un solo proceso (para que se ejecuten varios procesos, ejecutarlo desde la terminal con mpiexec -n 4 ./MiProyecto.bin (estï¿½ en la carpeta Debug del proyecto)
 // Sino, se puede compilar directamente en terminal con mpicxx helloMPI.cpp -o helloMPI (ya no es un proyecto), y luego, ejecutarlo con mpiexec -n 4 ./helloMPI
+//...
